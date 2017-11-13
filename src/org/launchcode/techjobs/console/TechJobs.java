@@ -114,7 +114,7 @@ public class TechJobs {
     // Print a list of jobs
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
         if (someJobs.size() == 0){
-            System.out.println("No such listing found, biiiiiiiiiiitch");
+            System.out.println("No such listing found");
         }
         for (HashMap<String, String> x : someJobs) {
             System.out.println("\n" + "***\n");
